@@ -14,7 +14,7 @@ function animate(obj,json,fn) {  // 给谁    json
             if(attr == "opacity")
             {
                 current = Math.round(parseInt(getStyle(obj,attr)*100)) || 0;
-                console.log(current);
+//                 console.log(current);
             }
             else
             {
